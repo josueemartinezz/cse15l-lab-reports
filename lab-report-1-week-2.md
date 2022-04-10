@@ -57,9 +57,32 @@ Here are some fundamental commands to practice using:
 ###    **6. cat (path to file)**
 > Create files, prints out contents of a file, concatenate files, and redirects output in terminal or files.
 
-Here is an example of what you may see: 
-![Commands]()
+Here is an example of what you may see if you have files within your chosen directory: 
+![Commands](Commands.png)
 # 4. Moving Files wtih SCP
+Begin by creating a java file called WhereAmI with the following code: 
+
+`class WhereAmI {`
+
+`public static void main(String[] args) {
+    System.out.println(System.getProperty("os.name"));
+    System.out.println(System.getProperty("user.name"));
+    System.out.println(System.getProperty("user.home"));
+    System.out.println(System.getProperty("user.dir"));`
+ `}`
+
+`}`
+
+Compile by using "`javac WhereAmI.java`" and run with "`java WhereAmI`" both in your terminal.
+
+Next, in your own terminal, not the account, you will write this command using your own account information. 
+
+`scp WhereAmI.java cs15lsp22zz@ieng6.ucsd.edu:~/`
+
+Once you have inserted your password, you will log in into the remote server using ssh like before. You will type the command `ls` to list all the files in the remote server. You should see something like this to verify your file has been properly transferred from your personal computer to the remote computer:
+
+![SCP files]()
+
 
 
 # 5. Setting an SSH Key
