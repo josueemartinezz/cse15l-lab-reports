@@ -4,7 +4,7 @@
 
 # 1.  Installing VSCode 
 
-To begin using remote access on your personal device, you will need to have [VSCode](https://code.visualstudio.com/) downloaded. Once you have downloaded VSCode appropriately suited for your operating system, open it and you should see something like this: ![Example_Picture](Example_Picture.png)
+To begin using remote access on your personal device, you will need to have [VSCode](https://code.visualstudio.com/) downloaded. Once you have downloaded VSCode appropriately suited for your operating system, open it and you should see something like this: ![Example_Picture](/Example_Picture.png))
 
 # 2. Remotely Connecting
 
@@ -13,7 +13,7 @@ To begin using remote access on your personal device, you will need to have [VSC
 
 + Once you go back to VSCode and press CTRL + SHIFT + ` , OR  find "Terminal" on the top selection bar and choose "New Terminal". You should see this horizontal split screen that includes your VSCode Get Started (Top Half) and your New Terminal (Bottom Half):
 
-![Terminal Viewing](getstarted.png)
+![Terminal Viewing](/getstarted.png)
 
     You will then type "ssh cs15lsp22zz@ieng6.ucsd.edu" replacing the zz with the letters from your course-specific account. You will encounter several messages that to which you will respond by typing "yes" into your terminal. The entire interaction should look like this: 
 
@@ -23,7 +23,7 @@ To begin using remote access on your personal device, you will need to have [VSC
 
 **RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.**
 
-**Are you sure you want to continue connecting (yes/no/[fingerprint])?** 
+**Are you sure you want to continue connecting (yes/no/`[Fingerprint]`)?** 
 
 **Password:**
 **Last login: Sun Jan  2 14:03:05 2022 from 107-217-10-235.lightspeed.sndgca.sbcglobal.net**
