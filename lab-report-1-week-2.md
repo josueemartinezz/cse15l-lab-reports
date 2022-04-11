@@ -1,4 +1,6 @@
-This is my lab report 1.
+### Lab Report 1
+### Josue Martinez A16943817
+### CSE 15L Spring 2022
 
 # 1.  Installing VSCode 
 
@@ -81,10 +83,42 @@ Next, in your own terminal, not the account, you will write this command using y
 
 Once you have inserted your password, you will log in into the remote server using ssh like before. You will type the command `ls` to list all the files in the remote server. You should see something like this to verify your file has been properly transferred from your personal computer to the remote computer:
 
-![SCP files]()
+![SCP files](scpfiles.png)
+
+> The java file contains print statements that produce OS name, user name, user home, and user directory. The lower left split screen is the server side and the lower right split screen is the user side.
 
 
 
 # 5. Setting an SSH Key
+We will now create an SSH key that will make the server login process far more efficient by skipping past the SSH $->$ PASSWORD commitment. 
+
+1. First, open your terminal on your user/client side and type `ssh-keygen`, to which you will be prompted with a messages like this:
+
+![sshkeygen](link)
+
+2. You will replace `<user-name>` with your User's name and press `Enter` to input an empty passphrase when prompted for it (for efficiency reasons).
+
+    Doing so will produce a randomart like... ![randomart](link)
+
+3. Next you will log into the remote server using the usual ssh command. You will use the `mkdir .ssh` (you may get a message saying it already exists which is okay).
+
+4. Return to client/user side and enter `scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys`
+    > Again, replace with personal username and change to your saved path
+
+Now, you will be able to enter the remote server without needing to enter your password. 
+
+![easylogin](link)
+
 
 # 6. Optimizing Remote Running
+We can now optmize commands on this remote server by skipping multiple steps thanks to the SSH Key to bypass unnecessary dirty work. We modify files locally by using the following recursive commands:
+
++ Using `ssh cs15lsp22zz@ieng6.ucsd.edu "ls"` or any command in quotations will first login and then run the ls or any command simultaneously. 
++ Additionally, you can use semicolons to differentiate which commands to run in order given the placement of the semicolons. Use `cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI` as an example.
++ Pressing the up keyboard will recall the most recent command you used. 
+
+As a result you can run a layered command to skip several single-instance commands. 
+
+![optimizingremote](link)
+
+## Thank you for visiting
