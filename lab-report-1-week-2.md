@@ -117,8 +117,8 @@ We can now optmize commands on this remote server by skipping multiple steps tha
 + Additionally, you can use semicolons to differentiate which commands to run in order given the placement of the semicolons. Use `cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI` as an example.
 + Pressing the up keyboard will recall the most recent command you used. 
 
-As a result you can run a layered command to skip several single-instance commands. 
+As a result you can run a layered command to skip several single-instance commands:
 
-![optimizingremote](link)
+![optimizingremote](optimizingremote.png)
 
-## Thank you for visiting
+## Thank you for visiting.
