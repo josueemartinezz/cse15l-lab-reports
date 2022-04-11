@@ -8,7 +8,7 @@ To begin using remote access on your personal device, you will need to have [VSC
 
 # 2. Remotely Connecting
 
-+ Install OpenSSH(link) in order to connect your personal computer to other computers in the server of your choice and find your CSE15L account here(link) to then access it through VSCode.
++ Install [OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse) in order to connect your personal computer to other computers in the server of your choice and find your CSE15L account [here](https://sdacs.ucsd.edu/~icc/index.php) to then access it through VSCode.
 
 
 + Once you go back to VSCode and press CTRL + SHIFT + ` , OR  find "Terminal" on the top selection bar and choose "New Terminal". You should see this horizontal split screen that includes your VSCode Get Started (Top Half) and your New Terminal (Bottom Half):
@@ -47,15 +47,24 @@ Here are some fundamental commands to practice using:
 
 ###    **1. cd ~**
 > Takes you to home directory.
+
 ###    **2. cd**
 > Changes to home.
+
+
 ###    **3. ls -a**
 > Shows all files, including unconventionaly shown .dot files
+
+
 ###    **4. ls <'directory'>**
 > Directory listing. 
+
+
 ###    **5. cp (path to file1) (path to file2)**
 > Copy a file or a directory
 >> Path example: /home/linux/ieng6/cs15lsp22/public/hello.txt ~/
+
+
 ###    **6. cat (path to file)**
 > Create files, prints out contents of a file, concatenate files, and redirects output in terminal or files.
 
