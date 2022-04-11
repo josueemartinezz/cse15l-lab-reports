@@ -94,11 +94,11 @@ We will now create an SSH key that will make the server login process far more e
 
 1. First, open your terminal on your user/client side and type `ssh-keygen`, to which you will be prompted with a messages like this:
 
-![sshkeygen](link)
+![sshkeygen](sshkeygen.png)
 
 2. You will replace `<user-name>` with your User's name and press `Enter` to input an empty passphrase when prompted for it (for efficiency reasons).
 
-    Doing so will produce a randomart like... ![randomart](link)
+    Doing so will produce a randomart like... ![randomart](randomart.png)
 
 3. Next you will log into the remote server using the usual ssh command. You will use the `mkdir .ssh` (you may get a message saying it already exists which is okay).
 
@@ -107,7 +107,7 @@ We will now create an SSH key that will make the server login process far more e
 
 Now, you will be able to enter the remote server without needing to enter your password. 
 
-![easylogin](link)
+![easylogin](easylogin.png)
 
 
 # 6. Optimizing Remote Running
