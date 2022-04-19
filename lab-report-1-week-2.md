@@ -19,11 +19,11 @@ You will then type "ssh cs15lsp22zz@ieng6.ucsd.edu" replacing the zz with the le
 ```java
 ⤇ ssh cs15lsp22zz@ieng6.ucsd.edu
 
-The authenticity of host 'ieng6-202.ucsd.edu (128.54.70.227)' can't be established.
+The authenticity of host ieng6-202.ucsd.edu (128.54.70.227) cant be established.
 
 RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 
-Are you sure you want to continue connecting (yes/no/`[Fingerprint])?
+Are you sure you want to continue connecting (yes/no/[Fingerprint])?
 
 Password:
 Last login: Sun Jan  2 14:03:05 2022 from 107-217-10-235.lightspeed.sndgca.sbcglobal.net
