@@ -4,7 +4,7 @@
 
 # 1.  Installing VSCode 
 
-To begin using remote access on your personal device, you will need to have [VSCode](https://code.visualstudio.com/) downloaded. Once you have downloaded VSCode appropriately suited for your operating system, open it and you should see something like this: ![Example_Picture](/Example_Picture.png))
+To begin using remote access on your personal device, you will need to have [VSCode](https://code.visualstudio.com/) downloaded. Once you have downloaded VSCode appropriately suited for your operating system, open it and you should see something like this: ![Example_Picture](/R1images/Example_Picture.png))
 
 # 2. Remotely Connecting
 
@@ -13,7 +13,7 @@ To begin using remote access on your personal device, you will need to have [VSC
 
 + Once you go back to VSCode and press CTRL + SHIFT + ` , OR  find "Terminal" on the top selection bar and choose "New Terminal". You should see this horizontal split screen that includes your VSCode Get Started (Top Half) and your New Terminal (Bottom Half):
 
-![Terminal Viewing](/getstarted.png)
+![Terminal Viewing](/R1images/getstarted.png)
 
 You will then type "ssh cs15lsp22zz@ieng6.ucsd.edu" replacing the zz with the letters from your course-specific account. You will encounter several messages that to which you will respond by typing "yes" into your terminal. The entire interaction should look like this: 
 ```java
@@ -70,7 +70,7 @@ Here are some fundamental commands to practice using:
 > Create files, prints out contents of a file, concatenate files, and redirects output in terminal or files.
 
 Here is an example of what you may see if you have files within your chosen directory: 
-![Commands](Commands.png)
+![Commands](/R1images/Commands.png)
 # 4. Moving Files wtih SCP
 Begin by creating a java file called WhereAmI with the following code: 
 
@@ -94,7 +94,7 @@ Next, in your own terminal, not the account, you will write this command using y
 
 Once you have inserted your password, you will log in into the remote server using ssh like before. You will type the command `ls` to list all the files in the remote server. You should see something like this to verify your file has been properly transferred from your personal computer to the remote computer:
 
-![SCP files](scpfiles.png)
+![SCP files](/R1images/scpfiles.png)
 
 > The java file contains print statements that produce OS name, user name, user home, and user directory. The lower left split screen is the server side and the lower right split screen is the user side.
 
@@ -105,11 +105,11 @@ We will now create an SSH key that will make the server login process far more e
 
 1. First, open your terminal on your user/client side and type `ssh-keygen`, to which you will be prompted with a messages like this:
 
-![sshkeygen](sshkeygen.png)
+![sshkeygen](/R1images/sshkeygen.png)
 
 2. You will replace `<user-name>` with your User's name and press `Enter` to input an empty passphrase when prompted for it (for efficiency reasons).
 
-    Doing so will produce a randomart like... ![randomart](randomart.png)
+    Doing so will produce a randomart like... ![randomart](/R1images/randomart.png)
 
 3. Next you will log into the remote server using the usual ssh command. You will use the `mkdir .ssh` (you may get a message saying it already exists which is okay).
 
@@ -118,7 +118,7 @@ We will now create an SSH key that will make the server login process far more e
 
 Now, you will be able to enter the remote server without needing to enter your password. 
 
-![easylogin](easylogin.png)
+![easylogin](/R1images/easylogin.png)
 
 
 # 6. Optimizing Remote Running
@@ -130,6 +130,6 @@ We can now optmize commands on this remote server by skipping multiple steps tha
 
 As a result you can run a layered command to skip several single-instance commands:
 
-![optimizingremote](optimizingremote.png)
+![optimizingremote](/R1images/optimizingremote.png)
 
 ## Thank you for visiting.
