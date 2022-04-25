@@ -1,6 +1,7 @@
-# $Josue$ $Martinez$
-## $CSE15L$ 
-### $Spring$ $2022$
+
+# <span style="color:magenta">Josue Martinez</span>
+## CSE15L
+### Spring 2022
 
 ## <center>Lab Reports</center>
 
