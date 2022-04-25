@@ -1,17 +1,9 @@
-# Hello World
+# $Josue$ $Martinez$
+## $CSE15L$ 
+### $Spring$ $2022$
 
-## Hello World
- 
-### Hello World
+## <center>Lab Reports</center>
 
-#### Hello World
+__[Lab Report 1](lab-report-1-week-2.html)__
 
-##### Hello World
-
-###### Hello World
-
-
-
-**This is my homepage for CSE15L Lab Reports containing links to each report.**
-
-[Lab Report 1](lab-report-1-week-2.html)
+__[Lab Report 2](lab-report-1-week-2.html)__
