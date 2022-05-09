@@ -34,4 +34,4 @@ Here you can see the actual copied directory using ``ls``.
 ![serverCopy](/R3Images/serverCopy.png)
 Finally, I combined the ``scp, ;, and ssh`` commands to do it all simultaneously. 
 ![compound commands at one time](/R3images/compoundCommand.png)
-## <center>Thank you for visiting!</center>
+# <center>Thank you for visiting!</center>
