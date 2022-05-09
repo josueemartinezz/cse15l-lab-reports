@@ -1,4 +1,4 @@
-# <center>__Lab Report 2__</center>
+# <center>Lab Report 2</center>
 ---
 ## Josue Martinez 
 
