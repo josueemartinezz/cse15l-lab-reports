@@ -114,15 +114,15 @@ After running this test snippet it is expected to only find one successful link 
 <center><img src="R4images/reviewSnippetThree.png" alt="reviewSnippetThree" width="600"/></center>
 
 ## <center></center>
-__Do you think there is a small (<10 lines) code change that will make your program work for snippet 1 and all related cases that use inline code with backticks? If yes, describe the code change. If not, describe why it would be a more involved change.__
+### Do you think there is a small (<10 lines) code change that will make your program work for snippet 1 and all related cases that use inline code with backticks? If yes, describe the code change. If not, describe why it would be a more involved change.
 
 I believe I can make a slight adjustment to my current code to make this snippet and relevant cases work. All I would have to do is create an `if` statement that makes detects and tracks the length of a code segment and to void it. 
 
-__Do you think there is a small (<10 lines) code change that will make your program work for snippet 2 and all related cases that nest parentheses, brackets, and escaped brackets? If yes, describe the code change. If not, describe why it would be a more involved change.__
+### Do you think there is a small (<10 lines) code change that will make your program work for snippet 2 and all related cases that nest parentheses, brackets, and escaped brackets? If yes, describe the code change. If not, describe why it would be a more involved change.
 
 I don't think a small code change would be enough to properly solve this programming issue. The snippet and relevant nested paratheses, brackets, and escaped brackets cases would require more case handling which I believe would exceed the 9 line limit.
 
-__Do you think there is a small (<10 lines) code change that will make your program work for snippet 3 and all related cases that have newlines in brackets and parentheses? If yes, describe the code change. If not, describe why it would be a more involved change.__
+### Do you think there is a small (<10 lines) code change that will make your program work for snippet 3 and all related cases that have newlines in brackets and parentheses? If yes, describe the code change. If not, describe why it would be a more involved change.
 
 Again, I believe a small code change would be enough to properly solve this programming issue. The snippet and relevant  newlines in brackets and parentheses cases would require more case handling which I believe would exceed the 9 line limit.
 
