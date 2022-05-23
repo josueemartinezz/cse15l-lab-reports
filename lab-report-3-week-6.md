@@ -6,7 +6,7 @@ A16943817
 #### CSE 15L
 ####  5/08/2022
 
-## <center>Streamlining ssh Configuration
+## <center>Streamlining ssh Configuration</center>
 I opened the configure file in VSCode by using the ``.ssh/config`` command in my command line prompt.
 I changed the original addressed host from cs15lsp22 that was directed to me and chose an different alias seen below.
 ![configureFile](/R3images/configureFile.png)
