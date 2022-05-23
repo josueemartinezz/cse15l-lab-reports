@@ -24,21 +24,21 @@ Here is the link to our __[repository.](https://github.com/jina-leemon/markdown-
 
 ```
 ### Expected Output:
-<center><img src="R4images/snippetOneExpect.png" alt="snippetOneExpect" width="300"/></center>
+<center><img src="R4images/snippetOneExpect.png" alt="snippetOneExpect" width="600"/></center>
     
     
     After running this test snippet, it is expected to find that only "another link" should be considered an actual link; while the other three attempted links aren't considered as such. 
 
 ### Test Created
-<center><img src="R4images/snippet1test.png" alt="snippet1test" width="300"/></center>
+<center><img src="R4images/snippet1test.png" alt="snippet1test" width="600"/></center>
 
 ### Actual Output of My Implementation (Show JUnit output if it failed)
-<center><img src="R4images/snippetOneRun.png" alt="snippetOneRun" width="300"/></center>
+<center><img src="R4images/snippetOneRun.png" alt="snippetOneRun" width="600"/></center>
 
 
 ### Actual Output of Reviewed Implementation (Show JUnit output if it failed)
 
-<center><img src="R4images/reviewSnippetOne.png" alt="reviewSnippetOne" width="300"/></center>
+<center><img src="R4images/reviewSnippetOne.png" alt="reviewSnippetOne" width="600"/></center>
 
 
 ## <center>Test Snippet Two</center>
@@ -52,20 +52,20 @@ Here is the link to our __[repository.](https://github.com/jina-leemon/markdown-
 ### Expected Output
 After running this test snippet it is expected to find that all three attempted links actually result in successful links. However, with some noticeable differences that can represent either serious failings of the person trying to link or embedded links. 
 
-<center><img src="R4images/snippetTwoExpect.png" alt="snippetTwoExpect" width="300"/></center>
+<center><img src="R4images/snippetTwoExpect.png" alt="snippetTwoExpect" width="600"/></center>
 
 
 ### Test Created
 
-<center><img src="R4images/snippet2test.png" alt="snippet2test" width="300"/></center>
+<center><img src="R4images/snippet2test.png" alt="snippet2test" width="600"/></center>
 
 ### Actual Output of My Implementation (Show JUnit output if it failed)
 
-<center><img src="R4images/snippetTwoRun.png" alt="snippetTwoRun" width="300"/></center>
+<center><img src="R4images/snippetTwoRun.png" alt="snippetTwoRun" width="600"/></center>
 
 ### Actual Output of Reviewed Implementation (Show JUnit output if it failed)
 
-<center><img src="R4images/reviewSnippetTwo.png" alt="reviewSnippetTwo" width="300"/></center>
+<center><img src="R4images/reviewSnippetTwo.png" alt="reviewSnippetTwo" width="600"/></center>
 
 
 ## <center>Test Snippet Three</center>
@@ -98,19 +98,19 @@ And then there's more text
 ###    Expected Output
 After running this test snippet it is expected to only find one successful link that is a text bracket that doesn't fit on one line. Unfortunately, the other tests are not recognized as links which is due to the fact that they are either have text brackets that don't fit on one line AND has some breaks, a link that doesn't have a closing parenthesis, or a link that has a closing parenthesis far after the link. 
 
-<center><img src="R4images/snippetThreeExpect.png" alt="snippetThreeExpect" width="300"/></center>
+<center><img src="R4images/snippetThreeExpect.png" alt="snippetThreeExpect" width="600"/></center>
 
  ###   Test Created
 
-<center><img src="R4images/snippet3test.png" alt="snippet3test" width="300"/></center>
+<center><img src="R4images/snippet3test.png" alt="snippet3test" width="600"/></center>
 
 ###    Actual Output of My Implementation (Show JUnit output if it failed)
 
-<center><img src="R4images/snippetThreeRun.png" alt="snippetThreeRun" width="300"/></center>
+<center><img src="R4images/snippetThreeRun.png" alt="snippetThreeRun" width="600"/></center>
 
 ###    Actual Output of Reviewed Implementation (Show JUnit output if it failed)
 
-<center><img src="R4images/reviewSnippetThree.png" alt="reviewSnippetThree" width="300"/></center>
+<center><img src="R4images/reviewSnippetThree.png" alt="reviewSnippetThree" width="600"/></center>
 
 ## <center></center>
 __Do you think there is a small (<10 lines) code change that will make your program work for snippet 1 and all related cases that use inline code with backticks? If yes, describe the code change. If not, describe why it would be a more involved change.__
