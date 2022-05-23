@@ -27,7 +27,7 @@ Here is the link to our __[repository.](https://github.com/jina-leemon/markdown-
 <center><img src="R4images/snippetOneExpect.png" alt="snippetOneExpect" width="600"/></center>
     
     
-    After running this test snippet, it is expected to find that only "another link" should be considered an actual link; while the other three attempted links aren't considered as such. 
+After running this test snippet, it is expected to find that only "another link" should be considered an actual link; while the other three attempted links aren't considered as such. 
 
 ### Test Created
 <center><img src="R4images/snippet1test.png" alt="snippet1test" width="600"/></center>
@@ -50,6 +50,7 @@ Here is the link to our __[repository.](https://github.com/jina-leemon/markdown-
 [some escaped \[ brackets \]](example.com)
 ```
 ### Expected Output
+
 After running this test snippet it is expected to find that all three attempted links actually result in successful links. However, with some noticeable differences that can represent either serious failings of the person trying to link or embedded links. 
 
 <center><img src="R4images/snippetTwoExpect.png" alt="snippetTwoExpect" width="600"/></center>
