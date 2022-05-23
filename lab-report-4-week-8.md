@@ -13,36 +13,38 @@ Here is the link to our __[repository.](https://github.com/jina-leemon/markdown-
 
 
 ## <center>Test Snippet One</center>
-###    Expected Output:
+### Expected Output:
 After running this test snippet it is expected to find that only "another link" should be considered an actual link; while the other three attempted links aren't considered as such. 
 
-###   Test Created
-
-### Actual Output of My Implementation(Show JUnit output if it failed)
-
-### Actual Output of Reviewed Implementation(Show JUnit output if it failed)
+### Test Created
+![snippetone](/R4images/snippet1test.png)
+### Actual Output of My Implementation (Show JUnit output if it failed)
+![snippetone](/R4images/snippetOneRun.png)
+### Actual Output of Reviewed Implementation (Show JUnit output if it failed)
 
 
 
 ## <center>Test Snippet Two</center>
-###    Expected Output
+### Expected Output
+After running this test snippet it is expected to find that all three attempted links actually result in successful links. However, with some noticeable differences that can represent either serious failings of the person trying to link or embedded links. 
 
-   ### Test Created
-
-###    Actual Output of My Implementation(Show JUnit output if it failed)
-
-###    Actual Output of Reviewed Implementation(Show JUnit output if it failed)
+### Test Created
+![snippettwo](/R4images/snippet2test.png)
+### Actual Output of My Implementation (Show JUnit output if it failed)
+![snippettwo](/R4images/snippetTwoRun.png)
+### Actual Output of Reviewed Implementation (Show JUnit output if it failed)
 
 
 
 ## <center>Test Snippet Three</center>
 ###    Expected Output
-
+After running this test snippet it is expected to only find one successful link that is a text bracket that doesn't fit on one line. Unfortunately, the other tests are not recognized as links which is due to the fact that they are either have text brackets that don't fit on one line AND has some breaks, a link that doesn't have a closing parenthesis, or a link that has a closing parenthesis far after the link. 
+ 
  ###   Test Created
-
-###    Actual Output of My Implementation(Show JUnit output if it failed)
-
-###    Actual Output of Reviewed Implementation(Show JUnit output if it failed)
+![snippetthree](/R4images/snippet3test.png)
+###    Actual Output of My Implementation (Show JUnit output if it failed)
+![snippetthree](/R4images/snippetThreeRun.png)
+###    Actual Output of Reviewed Implementation (Show JUnit output if it failed)
 
 ## <center></center>
 Do you think there is a small (<10 lines) code change that will make your program work for snippet 1 and all related cases that use inline code with backticks? If yes, describe the code change. If not, describe why it would be a more involved change.
