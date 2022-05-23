@@ -96,20 +96,20 @@ And there's still some more text after that.
 
 And then there's more text
 ```
-###    Expected Output
+### Expected Output
 After running this test snippet it is expected to only find one successful link that is a text bracket that doesn't fit on one line. Unfortunately, the other tests are not recognized as links which is due to the fact that they are either have text brackets that don't fit on one line AND has some breaks, a link that doesn't have a closing parenthesis, or a link that has a closing parenthesis far after the link. 
 
 <center><img src="R4images/snippetThreeExpect.png" alt="snippetThreeExpect" width="600"/></center>
 
- ###   Test Created
+### Test Created
 
 <center><img src="R4images/snippet3test.png" alt="snippet3test" width="600"/></center>
 
-###    Actual Output of My Implementation (Show JUnit output if it failed)
+### Actual Output of My Implementation (Show JUnit output if it failed)
 
 <center><img src="R4images/snippetThreeRun.png" alt="snippetThreeRun" width="600"/></center>
 
-###    Actual Output of Reviewed Implementation (Show JUnit output if it failed)
+### Actual Output of Reviewed Implementation (Show JUnit output if it failed)
 
 <center><img src="R4images/reviewSnippetThree.png" alt="reviewSnippetThree" width="600"/></center>
 
