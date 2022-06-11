@@ -16,3 +16,6 @@ Week 6
 
 Week 8
 : __[Lab Report 4](https://josueemartinezz.github.io/cse15l-lab-reports/lab-report-4-week-8.html)__
+
+Week 10
+: __[Lab Report 5](https://josueemartinezz.github.io/cse15l-lab-reports/lab-report-5-week-10.html)__
